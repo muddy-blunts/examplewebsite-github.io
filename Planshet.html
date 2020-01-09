@@ -1,0 +1,128 @@
+<!DOCTYPE html>  <!--узание тип документа -->
+<html> <!--содержимое веб-страницы -->
+    <head> <!--вводим метатеги и заголовок страницы -->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <style type="text/css">
+            body {
+                font-family: Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+                margin: 0; /* Обнуляем отступы браузера */
+            }
+            h1 {
+                font-size: 36px; /* Размер шрифта */
+                font-weight: bold; /* Жирное начертание */
+                margin: 0; /* Убираем отступы */
+                color: #fc6; /* Цвет текста */
+            }
+            h2 {
+                margin-top: 0; /* Убираем отступ сверху */
+            }
+            #head { /* Верхний блок */
+                background: #3ca; /* Цвет фона */
+                padding: 10px; /* Поля вокруг */
+            }
+            #menu { /* Левая колонка */
+                float: left; /* Обтекание справа */
+                border: 1px solid #333; /* Параметры рамки вокруг */
+                width: 200px; /* Ширина колонки */
+                padding: 5px; /* Поля вокруг текста */
+                margin: 10px 10px 20px 5px; /* Значения отступов */
+            }
+            #menu div {
+                padding: 2px; /* Поля вокруг ссылок */
+            }
+            #menu a { 
+                display: block; /* Отображать ссылку как блок */
+                padding: 2px; /* Поля вокруг ссылок */
+                margin: 1px; /* Отступы вокруг */
+                font-size: 0.9em; /* Размер текста */
+                text-decoration: none; /* Убираем подчеркивание текста */
+            }
+            #menu a:hover { 
+                background: #faf3d2; /* Цвет фона */
+                border: 1px dashed #634f36; /* Добавление пунктирной рамки */
+                margin: 0; /* Убираем поля */
+            }
+            .sites-clear  {
+                zoom: 1;/* triggers hasLayout */
+                display: block;/* resets display for IE/Win */
+      }
+            .line {
+                border-bottom: 1px groove #333; /* Линия между ссылками */
+            }
+            #foot { /* Нижний блок */
+                
+                background: #333; /* Цвет фона */
+                padding: 1px; /* Поля вокруг текста */
+                color: #fff; /* Цвет текста */
+                clear: both; /* Отменяем обтекание */
+            }
+            #leftcol { /* Левая колонка */
+                float: left; /* Обтекание справа */
+                width: 200px; /* Ширина колонки */
+            }
+            #rightcol { /* Правая колонка */
+                margin-left: 225px; /* Отступ слева */
+            }
+        </style>
+        <title> 
+            Fity Store
+        </title> <!--устанавливаем заголовок страницы-->
+    </head>
+    <tbody>
+        <div id="head">
+            <h2 align="center"> 
+                <a href="Home.html">Fity store - интернет магазин <!--создаем ссылку, задаем адрес документа-->
+                </a>
+            </h2>
+        </div>    
+        <div  id="menu">
+            <div><a href="Home.html">Домашняя страница</a></div>
+            <div><a href="Smartphone.html">Телефон</a></div>
+            <div><a href="Planshet.html">Планшет</a></div>
+            <div><a href="Noutbook.html">Ноутбук</a></div>
+            <div><a href="PC.html">ПК</a></div>
+            <div class="line"></div>
+            <div><a href="Comment.html">Отзывы</a></div>
+            <div><a href="4.html">Контакты</a></div>
+        </div>
+        <table cellspacing="0"> <!--В контейнере таблиц, задаем растояние, между ячейками -->
+            <td class="sites-layout-tile sites-tile-name-content-1"> <!--задаём стилевой класс, позволяет связать тег со стилевым оформлением-->
+                <div dir="ltr"> 
+                <div style="color:rgb(48,48,48);font-family:Arial,Verdana,sans-serif;font-size:14px;line-height:21px"> <!--задаём шрифт, цвет шрифта, тип шрифта, размер шрифта, межстрочный интервал-->
+                    <span style="font-weight:bold"> <!--определяем строчные элементы документа, по насыщенности шрифта-->
+                        <div style="display:block;text-align:center"> <!--Показываем элемент, как блочный и выравниваем его по левому-->
+                            <a href="1.jpg" imageanchor="1"> <!--делаем ссылку на картинку-->
+                                <img border="0" src="1.jpg"> <!--создаём картинку на вэб странице-->
+                            </a>
+                        </div>
+                        <h2 align="center">
+                            <a href="AppleiPadAir.html"> Apple iPad Air
+                            </a>
+                        </h2>
+                    </span>
+                </div>
+            </td> 
+            <td class="sites-layout-tile sites-tile-name-content-2">  <!--задаём стилевой класс, позволяет связать тег со стилевым оформлением-->                                               
+                <div style="color:rgb(48,48,48);font-family:Arial,Verdana,sans-serif;font-size:14px;line-height:21px"> <!--задаём шрифт, цвет шрифта, тип шрифта, размер шрифта, межстрочный интервал-->
+                    <span style="font-weight:bold"> <!--определяем строчные элементы документа, по насыщенности шрифта-->
+                        <div style="display:block;text-align:center"> <!--Показываем элемент, как блочный и выравниваем его по левому-->
+                            <a href="2.jpg" imageanchor="1"> <!--делаем ссылку на картинку-->
+                                <img border="0" src="2.jpg"> <!--создаём картинку на вэб странице-->
+                            </a>
+                        </div>
+                        <h2 align="center">
+                            <a href="AppleiPad4.html"> Apple iPad 4
+                            </a>
+                        </h2>
+                    </span>
+                </div>
+            </td>
+        </table>
+        <div id="foot">
+            <h2 align="center">
+                <a href="https://teleg.run/big02tramp"> Влад Федоренко &copy;
+                </a>
+            </h2>
+        </div>
+    </tbody>      
+</html>
